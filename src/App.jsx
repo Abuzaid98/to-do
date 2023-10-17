@@ -61,7 +61,7 @@ const App = () => {
 
     return (
         <div className='container'>
-            <h1 className='heading'>To Do App</h1>
+            <h1 className='heading'>To Do APP</h1>
             <div className="inputField">
                 <input type="text" ref={inputRef} onKeyUp={handleSubmit} onChange={handleChange} placeholder='To-do...' value={inputVal} />
                 {
